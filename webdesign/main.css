@@ -39,34 +39,34 @@ body {
   
   div.genius> :nth-child(2) {
     border-radius: 0 100% 0 0;
-    background-color: darkblue;
+    background-color: darkgreen;
   }
 
   div.genius> :nth-child(2).on,
   div.genius> :nth-child(2):hover {
     border-radius: 0 100% 0 0;
-    background-color: blue;
+    background-color: green;
   }
   
   div.genius> :nth-child(3) {
-    background-color: darkorange;
+    background-color: darkblue;
     border-radius: 0 0 0 100%;
   }
 
   div.genius> :nth-child(3).on,
   div.genius> :nth-child(3):hover {
-    background-color: yellow;
+    background-color: blue;
     border-radius: 0 0 0 100%;
   }
   
   div.genius> :nth-child(4) {
-    background-color: darkgreen;
+    background-color: darkorange;
     border-radius: 0 0 100% 0;
   }
 
   div.genius> :nth-child(4).on,
   div.genius> :nth-child(4):hover {
-    background-color: green;
+    background-color: yellow;
     border-radius: 0 0 100% 0;
   }
   
