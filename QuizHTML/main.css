@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 229, 214);
+    background-image: url(https://www.latimes.com/projects/teenage-mutant-ninja-turtles-mayhem-movie-characters-personality-quiz/assets/images/gifs/DONATELLO.cc7e4104.gif), url(https://www.latimes.com/projects/teenage-mutant-ninja-turtles-mayhem-movie-characters-personality-quiz/assets/images/gifs/MIKEY.93d6cb56.gif), url(https://www.latimes.com/projects/teenage-mutant-ninja-turtles-mayhem-movie-characters-personality-quiz/assets/images/gifs/RAPHAEL.1f59e036.gif), url(https://www.latimes.com/projects/teenage-mutant-ninja-turtles-mayhem-movie-characters-personality-quiz/assets/images/gifs/LEO.fe9882a7.gif);
+    background-position: left top, right top, left bottom, right bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 200px 160px, 200px 160px, 200px 160px, 200px 160px;
+
+}
+
+main {
+    background-color: rgb(253, 124, 22);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+button {
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+    margin: 5px;
+    gap: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(248, 229, 214);
+    font-size: 15px;
+    transition: all 0.4s;
+}
+
+button:hover {
+    animation: alternate;
+    background:#070707;
+    color:rgb(248, 229, 214);
+}
+
+
+.modal-finish {
+  
+    display: flex;
+    position: fixed;
+    inset: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0 0 0 / .9);
+    color: #FFFFFF;
+    font-size: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+  }
+  
+  .modal-finish.open {
+    opacity: 4;
+    visibility: visible;
+  }
+
+  #win {
+    height: 150px;
+  }
+
+  .btn {
+ 
+    width: 200px;
+    font-size: 1.3rem;
+  }
