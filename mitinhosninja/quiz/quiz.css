@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 229, 214);
+    background-image: url(https://www.latimes.com/projects/teenage-mutant-ninja-turtles-mayhem-movie-characters-personality-quiz/assets/images/gifs/DONATELLO.cc7e4104.gif), url(https://www.latimes.com/projects/teenage-mutant-ninja-turtles-mayhem-movie-characters-personality-quiz/assets/images/gifs/MIKEY.93d6cb56.gif), url(https://www.latimes.com/projects/teenage-mutant-ninja-turtles-mayhem-movie-characters-personality-quiz/assets/images/gifs/RAPHAEL.1f59e036.gif), url(https://www.latimes.com/projects/teenage-mutant-ninja-turtles-mayhem-movie-characters-personality-quiz/assets/images/gifs/LEO.fe9882a7.gif);
+    background-position: left top, right top, left bottom, right bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 200px 160px, 200px 160px, 200px 160px, 200px 160px;
+    cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAATCAMAAACuuX39AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAKgUExURQADBjU0FQQHBwAAAAgKCAEFBgIFBwIGB9vNLAAEBgEEBxwdDAEEBg0NCQUIBxkVDAQHBwACBgAAAhUWCk1LExobCwAABB0eDDY2DwAABgAAABscC2RhFRASCgAAAxobCysrDQAABRcZC1RREwgKCAAAAhYYC4R/GSAhDAAABRQWCkdFEQIFBwAAARITCnZxGBobCwAABBASChcTDAYIBwEFBg8RCUo2GAABBQ4QCVM8GgAAAw0PCRQRCwsOCT4uFQAAAwkMCFc/GwADBgUIB1A6GQIFBgAAAAcJCC0jEQACBQMGB19EHHNSITYpEwcJCAAAAgMGBwIGBxAPChwXDR8ZDRgVDAkKCAAABAAAAL61IaigHsG4If3xKNHHI7+2IfruJ/vvJ/DkJ5eQHLyzIfntJ9rRJN/WJfntKMW8Ir20IbmwIFQ5GVhAGcK5IfzwKOfcJbqxIYB4GZA1L4UxK4eBGvHmJ+vhJrevILWtIMa9IlxGGV1IGcm/Ir21IWJUF2BMGZqSHdnOJLCoH/vvKObcJefdJuDWJVlBGbBCN81NP2QvILOsH/fqJ2FdFa6mHvLnJ/nuJ8fAIWQyIO1bR/VeSZc6MIyFG+jdJlxQF7B7MK2mHrmwIWFSGIJ4GtbNI15LGJo6MbREOFcvHLuzIZmTHH1aI+2kPqGaHWBRGKc9NWEsILixINPKI3huGWtfGLGpH7y1IVlJGd2ZOqh1LaWeHoR6G2EuIF5EGtTKI/frJ7uzIFdKF8CFM9iWOZ6XHcK6IdzSJPPnJ4aBG1lHGcaJNeCbOzw3EXhxGZOMG5iSHIV/GmZeF1hHGZBlKOSdPM2ONodfJruBMp1uK5dqKqJxLcSHNOafPNyYOophJrN9MMaKNcqMNcGGM6RzLf///3sKiB0AAABadFJOUwAAAAAAAAAAAAAAAAAAAACRcQi5+JwitNFSA6/yjBmtxECs6XYOpvyxMqPfZgme+aQmmdNRBpbuUpLlNJCTi9goiO1ShupfAX7GRXL58sVxGRxgk7G3qH9LE4lBsT8AAAABYktHRN+eadINAAAACXBIWXMAAAhNAAAITQEhiCGBAAAAB3RJTUUH5wgDACcUJU8DrQAAAS5JREFUGNNjEBAUYmBkYoYDBmERUTEWVia4EIN4VLSEpBQDXIRBOiY2TkZWjo0dKsIgH5+QmJSsoMjBCVHEoJSSmpaekamsosrFBhJhUMvKzsnNyy9Q19Dk5gEqYtAqLCouKc0vK6/Q1tEFms2gV1lVXVNbV9/Q2KRvYMjLymDU3NLa1t7R2dXd09tnbGLKYNafP2HipMlTpk6bPmPmLHMLBsvZc+bOm79g4aLFS5YuW25lzWCzYuWq1WvWrlu/YeOmzVtspRjstm7bvmNnYuqu3Xv27rN3YGVw3J904GDLobWHjxw95uTMy87gcvzEyVOnz5w9d/6Cq5s7JxODx8VLl69cvXb9xk1PL2ZOoEu9fW7dvnP3nq+ffwAfK9AzDIFBwSGhYeERkfzsYO8CANXiZO5KH4heAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA4LTAzVDAwOjM5OjEzKzAwOjAwjTg1DQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wOC0wM1QwMDozOToxMyswMDowMPxljbEAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjMtMDgtMDNUMDA6Mzk6MjArMDA6MDAUF7EQAAAAAElFTkSuQmCC"), auto;
+
+}
+
+main {
+    background-color: rgb(253, 124, 22);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+button {
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+    margin: 5px;
+    gap: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(248, 229, 214);
+    font-size: 15px;
+    transition: all 0.4s;
+}
+
+button:hover {
+    animation: alternate;
+    background:#070707;
+    color:rgb(248, 229, 214);
+}
+
+
+.modal-finish {
+  
+    display: flex;
+    position: fixed;
+    inset: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0 0 0 / .9);
+    color: #FFFFFF;
+    font-size: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+  }
+  
+  .modal-finish.open {
+    opacity: 4;
+    visibility: visible;
+  }
+
+  #win {
+    height: 150px;
+  }
+
+  .btn {
+ 
+    width: 200px;
+    font-size: 1.3rem;
+  }

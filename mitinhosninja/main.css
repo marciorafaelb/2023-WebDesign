@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 94px;
+    padding: 20px 120px;
+    background-color: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  img {
+    height: 78px;
+  }
+  
+  nav a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+  }
+  
+  nav a:hover,
+  nav a.active {
+    color: cyan;
+  }
+  
+  section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f242d;
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+  }
+  
+  section:nth-child(odd) {
+    background-color: orangered;
+  }
+
+  #inicio {
+    background-image: url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/12/teenage-mutant-ninja-turtles-mutant-mayhem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

@@ -1,0 +1,61 @@
+[
+    {
+      "pergunta": "1. Quais os nomes dos 4 personagens ao redor desse quiz?",
+      "correta": 0,
+      "alternativas": ["Donatello, Rafael, Leonardo e Michelangelo", "Sandro, Michelangelo, Leonardo e Rafael", "Leonardo, Rafael, Giovanni e Donatello","Michelangelo, Caravaggio, Rafael e Donatello"]
+    },
+    {
+      "pergunta": "2. Qual a comida favorita das Tartarugas Ninja?",
+      "correta": 2,
+      "alternativas": ["Ovos e bacon", "Churrasco", "Pizza", "Peixe frito"]
+    },
+    {
+        "pergunta": "3. Quem é o líder?",
+        "correta": 2,
+        "alternativas": ["Rafael", "Michelangelo", "Leonardo", "Donatello"]
+    },
+    {
+        "pergunta": "4. Qual a arma que Michelangelo usa em combate?",
+        "correta": 3,
+        "alternativas": ["Um par de katanas", "Um bastão", "Um par de Sai", "Um par de nunchaku"]
+    },
+    {
+      "pergunta": "5. Qual o instrutor de ninjutsu e artes marciais dos irmãos?",
+      "correta": 2,
+      "alternativas":["Casey Jones", "Miyamoto", "Splinter", "Usagi"]
+    },
+
+    {
+      "pergunta": "6. Qual o nome verdadeiro do Destruidor?",
+      "correta":1,
+      "alternativas": ["Usagi Yojimbo","Oruko Saki","Hamato Yoshi","Hokum Hare"]
+    },
+
+    {
+      "pergunta": "7. Qual o nome da humana amiga das Tartarugas?",
+      "correta":0,
+      "alternativas":["April", "May", "Casey", "Lucy"]
+    },
+    
+    {
+      "pergunta": "8. Na iteração de 2018, a posição de liderança muda para qual dos irmãos?",
+      "correta": 1,
+      "alternativas":["Donatello", "Rafael", "Michelangelo", "Continuou sendo o Leonardo" ]
+    },
+
+    {
+      "pergunta": "9. Nessa mesma iteração, cada um dos irmãos é de uma espécie de tartaruga diferente. Qual a espécie do Leonardo?",
+      "correta": 3,
+      "alternativas":["Tartaruga-de-casco-mole","Tartaruga-de-caixa","Tartaruga-aligátor","Tartaruga-de-orelha-vermelha"]
+    },
+
+    {
+      "pergunta": "10. Por fim, que dia é estreado o novo filme 'As Tartarugas Ninja: Caos Mutante' ?",
+      "correta": 1,
+      "alternativas":["29 de agosto", "31 de agosto", "02 de setembro", "30 de agosto"]
+    }
+
+
+
+    
+  ]
